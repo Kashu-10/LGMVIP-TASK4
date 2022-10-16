@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-image: url(images/img.jpg);
+    background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background:rgba(190, 143, 40, 0.929);
+    position: absolute;
+    border: 2px solid rgba(228, 140, 59, 0.945);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.btn {
+    padding: 17px 22px;
+    margin: 3px 5px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 25px;
+    width: 65px;
+    background-color: rgb(216, 147, 103);
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color:rgb(253, 211, 159);
+}
+
+#clear {
+    width: 315px;
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 16px;
+    color: rgb(245, 89, 89);
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    font-weight: 900;
+    font-size: 25px;
+    padding: 15px 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: rgb(246, 194, 126);
+    text-align: right;
+}
+
+::placeholder {
+    font-size: 25px;
+    color: #000;
+}
